@@ -12,10 +12,10 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/iranosotros"
+            android:id="@+id/irALogin"
             android:layout_width="239dp"
             android:layout_height="69dp"
-            android:text="Ir hacia nosotros" />
+            android:text="Ir a Loguearse" />
 
 
 

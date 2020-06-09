@@ -7,24 +7,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        Button irALogin = findViewById(R.id.irALogin);
+        setContentView(R.layout.activity_login);
 
+        Button iranosotros = findViewById(R.id.iranosotros);
 
-        irALogin.setOnClickListener(new View.OnClickListener() {
+        iranosotros.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent o = new Intent(MainActivity.this, LoginActivity.class);
-                startActivity(o);
+                Intent u = new Intent( LoginActivity.this, NosotrosActivity.class);
+                startActivity(u);
             }
         });
-
-
 
     }
 }
