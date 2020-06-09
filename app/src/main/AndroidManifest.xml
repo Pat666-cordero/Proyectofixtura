@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JuradoActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".JuradoActivity" />
         <activity android:name=".DelegadoActivity" />
         <activity android:name=".NosotrosActivity" />
         <activity android:name=".MainActivity">
